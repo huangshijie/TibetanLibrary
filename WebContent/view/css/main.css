@@ -1,0 +1,54 @@
+.navigation-strip{
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
+	z-index: 1;
+}
+.navigation{
+	position: absolute;
+	background: url('../img/nav-bg.png') no-repeat;
+	background-size:100% 100%;
+	padding: 0 0;
+	width: 100%;
+	margin: 0 auto;
+	top: -28px;
+	left: 0;
+}
+.content {
+	-webkit-box-shadow:  0 0 30px rgba(0, 0, 0, 0.47);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.47);
+}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2{
+  position: relative;
+}
+.effect2:before, .effect2:after{
+	z-index: -999;
+	position: absolute;
+	content: "";
+	bottom: -17px;
+	left: 15px;
+	width: 57%;
+	top: 84%;
+	max-width: 348px;
+	background: #9f2916;
+	-webkit-box-shadow: 0 15px 10px #777;
+	-moz-box-shadow: 0 15px 10px #777;
+	box-shadow: 0 15px 10px #9f2916;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+.effect2:after{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 15px;
+  left: auto;
