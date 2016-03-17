@@ -16,7 +16,7 @@
 	</head>
 	<body>
 		<div id="mask" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background-color: rgb(45, 45, 45); z-index: 9000; opacity: 0.7; display: none; over-flow:hidden;"></div>
-
+		
 		<%@ include file="header.jsp"%>
 	
 		<div class="wrap">
@@ -102,8 +102,6 @@
 			</div>
 
 		</div>
-		
 		<%@ include file="footer.jsp"%>
-
 	</body>
 </html>

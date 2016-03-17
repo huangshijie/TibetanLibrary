@@ -5,7 +5,7 @@
 body { font-family:"Noto Sans S Chinese Light","NotoSansHans-Regular","Microsoft YaHei","å¾®è½¯é›…é»‘","STHeiti"; color:#666; }
 ul { padding:0; list-style-type:none }
 *{outline:none}
-.navbar-nav .xyicon, .xyicon, #bdshare-button .xyicon { background:url(../images/xyicon.png) no-repeat }
+.navbar-nav .xyicon, .xyicon, #bdshare-button .xyicon { background:url(../img/xyicon.png) no-repeat }
 .xyi-about { margin-top:0; margin-bottom:0; text-indent:-9999px; background:url(../images/icon_02.png) 0px 4px no-repeat; background-size: auto 9px; }
 .xyi-fans { margin-top:0; margin-bottom:0; text-indent:-9999px;background:url(../images/icon_03.png) 0px 4px no-repeat; background-size: auto 9px; }
 
