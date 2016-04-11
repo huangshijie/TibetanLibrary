@@ -52,3 +52,15 @@
   transform: rotate(3deg);
   right: 15px;
   left: auto;
+}
+  
+.downloadContainer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 24px;
+    text-align: left;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#F39A7C),to(#FA460A));
+	position: relative;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+	color:#FFFFFF;
+}
