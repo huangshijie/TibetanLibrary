@@ -20,7 +20,7 @@
 							</ul>
 						</li>
 						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="#">文本处理</a></li>
-						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="#">藏汉词典</a></li>
+						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./search.jsp">藏汉词典</a></li>
 						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./download.jsp">下载专区</a></li>
 						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./about.jsp">联系我们</a></li>
 					</ul>

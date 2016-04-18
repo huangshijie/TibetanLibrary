@@ -32,40 +32,35 @@
 					</div>
 				</div>
 			</div>
-			<div class="container container-index">
-	
-				<div class="tab_with_slider">
-					<div class="jumbotron jumbotron-index">
-						<h1 class="title">藏语词典搜索</h1>
-						<p>
-							提供专业的藏语翻译服务
-						</p>
-						<div>
-							<input type="text" class="form-control" placeholder="请输入您想翻译的内容" style="float:left; width: 65%; height: 50px;">
-							<button type="button" class="btn btn-primary btn-lg">藏 转 汉</button>
-							<button type="button" class="btn btn-primary btn-lg">汉 转 藏</button>
+
+	<div class="container body-container">
+		<div>
+			<div class="main-head"></div>
+			<div class="container body-container">
+				<div id="subheader-columns">
+					<div class="row">
+						<div class="col-xs-4 subheader">
+							<h4>How is Phoenix different?</h4>
+							<p>Phoenix brings back the simplicity and joy in writing modern web applications by mixing tried and true technologies with a fresh breeze of functional ideas.
+							<a class="subheader-link" href="/docs/up-and-running">Get started with Phoenix</a></p>
 						</div>
-					</div>
-				</div>
-			</div> 
-		
-			<div class="container bnb">
-				<div class="row">
-					<div class="col-md-6 col-sm-7 in_img_01">
-						<img src="./img/indexzangyu.jpg" alt="" width="280" height="280" class="center-block img-responsive">
-					</div>
-					<div class="col-md-5 col-sm-5">
-						<h2 class="title">Tibetan 藏语</h2>
-						<div class="desc w90">
-							<p class="desc">藏语，属汉藏语系藏缅语族藏语支。分布在中国西藏自治区和青海、四川甘孜藏族自治州、阿坝藏族羌族自治州以及甘肃甘南藏族自治州与云南迪庆藏族自治州5个地区。<br/>
-							巴基斯坦、印度、尼泊尔、不丹四个国家，也有人说藏语。藏语主要分为三大方言：卫藏方言（即拉萨话）、康方言（德格话、昌多话）、安多方言。
-							</p>
+						<div class="col-xs-4 subheader">
+							<h4>Building the new web</h4>
+							<p>Create rich, interactive experiences across browsers, native mobile apps, and embedded devices with our real-time streaming technology called Channels.
+							<a class="subheader-link" href="/docs/channels">Learn about channels</a></p><p></p>
+						</div>
+						<div class="col-xs-4 subheader">
+							<h4>Battle-proven technology</h4>
+							<p>Phoenix leverages the Erlang VM ability to handle millions of connections alongside Elixir's beautiful syntax and productive tooling for building fault-tolerant systems.
+							<a class="subheader-link" href="http://elixir-lang.org/">More about Elixir &amp; the Erlang VM</a></p><p></p>
 						</div>
 					</div>
 				</div>
 			</div>
-		
 		</div>
+	
+	</div>
+</div>
 		<%@ include file="footer.jsp"%>
 	</body>
 </html>

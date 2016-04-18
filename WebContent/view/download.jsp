@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/font.css">
 		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/cikonss.css">
 		<link rel="shortcut icon" href="./img/icon.ico" /> 
 		
 		<script src="./js/jquery-1.12.1.min.js" type="text/javascript"></script>
@@ -72,7 +73,7 @@
 									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
 								</div>
 								<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-									<span><i class="fa fa-star"></i> 92793</span>
+									<span class="icon icon-small"><span class="icon-download"></span><span style="margin-left:18px">92793</span></span>
 								</div>
 							</div>
 						</a>
@@ -85,7 +86,7 @@
 									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
 								</div>
 								<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-									<span><i class="fa fa-star"></i> 92793</span>
+									<span class="icon icon-small"><span class="icon-download"></span><span style="margin-left:18px">92793</span></span>
 								</div>
 							</div>
 						</a>
@@ -98,7 +99,7 @@
 									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
 								</div>
 								<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-									<span><i class="fa fa-star"></i> 92793</span>
+									<span class="icon icon-small"><span class="icon-download"></span><span style="margin-left:18px">92793</span></span>
 								</div>
 							</div>
 						</a>
@@ -111,7 +112,7 @@
 									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
 								</div>
 								<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-									<span><i class="fa fa-star"></i> 92793</span>
+									<span class="icon icon-small"><span class="icon-download"></span><span style="margin-left:18px">92793</span></span>
 								</div>
 							</div>
 						</a>
