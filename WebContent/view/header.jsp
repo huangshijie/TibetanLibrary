@@ -3,28 +3,29 @@
 			<nav class="navbar navbar-default">
 				<div class="container">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="./index.jsp"><img src="./img/logo.png" alt="小云" width="70" height="46" class="img-responsive"></a>
+						<a class="navbar-brand" href="./index.jsp">
+						<img src="./img/logo.png" alt="小云" width="70" height="46" class="img-responsive"></a>
 					</div>
-				<div class="navbar-collapse collapse navbar-right" id="header-navbar">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="./index.jsp">首页</a></li>
-						<li class="dropdown " onmouseover="nactive(this)" onmouseout="cactive(this)">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">方言比较</a>
-							<ul class="dropdown-menu">
-								<li><a href="./lanpoint.jsp" hidefocus="true" >调入方言</a></li>
-								<li><a href="./databaseStandard.jsp" hidefocus="true" >数据库规范化</a></li>
-								<li><a href="#" hidefocus="true" >用方言调查字典建数据库</a></li>
-								<li><a href="#" hidefocus="true" >语音处理</a></li>
-								<li><a href="./tibetanCompare.jsp" hidefocus="true" >方言与方言比较</a></li>
-								<li><a href="#" hidefocus="true" >方言地图</a></li>
-							</ul>
-						</li>
-						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="#">文本处理</a></li>
-						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./search.jsp">藏汉词典</a></li>
-						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./download.jsp">下载专区</a></li>
-						<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./about.jsp">联系我们</a></li>
-					</ul>
-				</div>
+					<div class="navbar-collapse collapse navbar-right" id="header-navbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="./index.jsp">首页</a></li>
+							<li class="dropdown " onmouseover="nactive(this)" onmouseout="cactive(this)">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">方言比较</a>
+								<ul class="dropdown-menu">
+									<li><a href="./lanpoint.jsp" hidefocus="true" >调入方言</a></li>
+									<li><a href="./databaseStandard.jsp" hidefocus="true" >数据库规范化</a></li>
+									<li><a href="#" hidefocus="true" >用方言调查字典建数据库</a></li>
+									<li><a href="#" hidefocus="true" >语音处理</a></li>
+									<li><a href="./tibetanCompare.jsp" hidefocus="true" >方言与方言比较</a></li>
+									<li><a href="#" hidefocus="true" >方言地图</a></li>
+								</ul>
+							</li>
+							<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="#">文本处理</a></li>
+							<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./search.jsp">藏汉词典</a></li>
+							<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./download.jsp">下载专区</a></li>
+							<li onmouseover="nactive(this)" onmouseout="cactive(this)"><a href="./about.jsp">联系我们</a></li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 		

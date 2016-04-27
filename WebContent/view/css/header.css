@@ -1,0 +1,52 @@
+.managerloginbar{
+	background-color: #3e3e3e;
+    color: #fff;
+    line-height: 20px;
+    text-align: right;
+    min-height: 20px;
+}
+
+.my-userinfo {
+    background-color: #3e3e3e;
+    color: #fff;
+    line-height: 30px;
+    text-align: right;
+    min-height: 34px;
+}
+
+.my-header {
+	box-sizing:border-box;
+	display:block;
+	font-family:'Microsoft YaHei', 微软雅黑, helvetica, arial, sans-serif;
+	font-size:14px;
+	height:95px;
+	line-height:20px;
+	margin-bottom:10px;
+	padding-bottom:20px;
+	padding-top:20px;
+	position:relative
+}
+
+.my-logo{
+	margin-left: 20%;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #CAC8C8;
+    border-color: #fff;
+}
+
+.liopen{
+    cursor: hand;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0px 10px 0px 3px;
+    height: 24px;
+    font-family: "微软雅黑";
+    border-bottom: 1px dotted #614A4A;
+    background: #014f41;
+}

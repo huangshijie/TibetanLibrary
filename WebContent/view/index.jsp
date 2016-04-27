@@ -5,34 +5,55 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>藏语大词典 </title>
-		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/bootstrap.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/font.css">
-		
+		<link rel="stylesheet" href="./css/carousel-style.css">
 		<link rel="shortcut icon" href="./img/icon.ico" /> 
-		
 		<script src="./js/jquery-1.12.1.min.js" type="text/javascript"></script>
-		<script src="./js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="./js/bootstrap.js" type="text/javascript"></script>
+		<script type="text/javascript" src="./js/responsiveslides.min.js"></script>
+		<script type="text/javascript">
+			$(function () {
+			
+			  // Slideshow 4
+			  $("#slider4").responsiveSlides({
+				auto: false,
+				pager: false,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+				  $('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+				  $('.events').append("<li>after event fired.</li>");
+				}
+			  });
+			
+			});
+		</script>
 	</head>
 	<body>
-		<div id="mask" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background-color: rgb(45, 45, 45); z-index: 9000; opacity: 0.7; display: none; over-flow:hidden;"></div>
-		
-		<%@ include file="header.jsp"%>
-	
+		<%@ include file="head1.jsp"%>
 		<div class="wrap">
-			<div id="simple-carousel" class="carousel slide hidden-xs" data-ride="carousel">
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<img src="http://www.xiaoyun.com/static/xiaoyun/images/WiFi_banner-0.5s.gif" alt="..." width="1920" height="530" >
-						<!--  
-						
-							居中大图
-						
-						-->
-					</div>
-				</div>
+			<div class="callbacks_container">
+				<ul class="rslides" id="slider4">
+					<li>
+						<img src="./img/testindex.jpg" alt="">
+						<p class="caption">1</p>
+					</li>
+					<li>
+						<img src="./img/testindex.jpg" alt="">
+						<p class="caption">2</p>
+					</li>
+					<li>
+						<img src="./img/testindex.jpg" alt="">
+						<p class="caption">3</p>
+					</li>
+				</ul>
 			</div>
-
+			
 	<div class="container body-container">
 		<div>
 			<div class="main-head"></div>
