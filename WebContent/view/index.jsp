@@ -8,51 +8,30 @@
 		<link rel="stylesheet" href="./css/bootstrap.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/font.css">
-		<link rel="stylesheet" href="./css/carousel-style.css">
-		<link rel="shortcut icon" href="./img/icon.ico" /> 
+		<link rel="stylesheet" href="./css/default.css">
+		<link rel="stylesheet" href="./css/nivo-slider.css">
+		<link rel="shortcut icon" href="./img/icon.ico" />
+		 
 		<script src="./js/jquery-1.12.1.min.js" type="text/javascript"></script>
 		<script src="./js/bootstrap.js" type="text/javascript"></script>
-		<script type="text/javascript" src="./js/responsiveslides.min.js"></script>
-		<script type="text/javascript">
-			$(function () {
-			
-			  // Slideshow 4
-			  $("#slider4").responsiveSlides({
-				auto: false,
-				pager: false,
-				nav: true,
-				speed: 500,
-				namespace: "callbacks",
-				before: function () {
-				  $('.events').append("<li>before event fired.</li>");
-				},
-				after: function () {
-				  $('.events').append("<li>after event fired.</li>");
-				}
-			  });
-			
-			});
-		</script>
+		
 	</head>
 	<body>
 		<%@ include file="head1.jsp"%>
 		<div class="wrap">
-			<div class="callbacks_container">
-				<ul class="rslides" id="slider4">
-					<li>
-						<img src="./img/testindex.jpg" alt="">
-						<p class="caption">1</p>
-					</li>
-					<li>
-						<img src="./img/testindex.jpg" alt="">
-						<p class="caption">2</p>
-					</li>
-					<li>
-						<img src="./img/testindex.jpg" alt="">
-						<p class="caption">3</p>
-					</li>
-				</ul>
-			</div>
+
+
+        <div class="slider-wrapper theme-default" style="width: 60%;margin: auto;">
+            <div id="slider" class="nivoSlider">
+                <img src="./img/testindex.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <img src="./img/testindex.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+                <img src="./img/testindex.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="./img/testindex.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
 			
 	<div class="container body-container">
 		<div>
@@ -83,5 +62,13 @@
 	</div>
 </div>
 		<%@ include file="footer.jsp"%>
+		
+		<script type="text/javascript" src="./js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 	</body>
 </html>
