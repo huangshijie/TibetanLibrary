@@ -91,7 +91,7 @@ ul { padding:0; list-style-type:none }
 #control-carousel2 .item a { display:inline-block; width:120px; height:60px; padding:15px; }
 .links2 .links2-inner { width:320px; margin:0 auto }
 
-footer { position:relative }
+footer { position:relative; background-color: #989595; }
 footer .tel { float:right; width:150px; height:30px; text-indent:-9999px; background-position:0 -90px }
 footer .tel:hover { background-position:-160px -90px }
 footer ul { padding-top:20px; padding-bottom:12px; margin-bottom:0; }
@@ -657,6 +657,78 @@ footer .beian:hover { color:#fa460a; }
 .previous {background:url(../images/s_left.png) !important; width:50px; height:50px; background-size:100% !important}
 .flickity-prev-next-button svg{display:none; }
 .xyi-link { margin-top:0; margin-bottom:0; text-indent:-9999px;background: url(../images/11.png) 0 2px no-repeat; background-size: auto 13px; }
+
+
+<!--  -->
+.index-tongzhi{
+	overflow: hidden;
+    background: url(../img/tongzhi.png) no-repeat;
+    width: 314px;
+    height: 266px;
+    margin-left: -5px;
+    padding: 30px 5px 20px;
+    float: right;
+    margin-right: 40px;
+}
+
+.index-changjianwenti{
+	overflow: hidden;
+    background: url(../img/faq.png) no-repeat;
+    width: 314px;
+    height: 185px;
+    margin-left: -5px;
+    padding: 30px 5px 20px;
+    float: right;
+    margin-right: 40px;
+}
+
+.index-z-p{
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.index-tit{
+	width: 80px;
+	background: #3b4d63;
+	height: 25px;
+	display: inline-block; 
+	line-height: 25px; 
+	color: #FFF; 
+	padding-left: 15px;
+	float: left;
+}
+
+.panel-heading.index-mypanelheading-style{
+	background-color:#E8EDF0; 
+	color: #666666;
+}
+
+.index-ul{
+	padding-bottom: 20px;
+    clear: both;
+    list-style: none;
+    margin: 10px 5px 0px 15px;
+    height: 150px;
+}
+
+.index-li{
+	font-size: 15px;
+    color: #666666;
+    line-height: 25px;
+    font-family: "Roboto-Regular","微软雅黑", "宋体", Arial, sans-serif;
+}
+
+
+.index-a{
+	color: #666666;
+    text-decoration: none;
+}
+
+
+
+
+
 
 
 

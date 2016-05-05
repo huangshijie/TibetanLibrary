@@ -1,5 +1,5 @@
 .managerloginbar{
-	background-color: #3e3e3e;
+	background-color: #EF4021;
     color: #fff;
     line-height: 20px;
     text-align: right;
@@ -21,10 +21,10 @@
 	font-size:14px;
 	height:95px;
 	line-height:20px;
-	margin-bottom:10px;
 	padding-bottom:20px;
 	padding-top:20px;
-	position:relative
+	position:relative;
+	background-color:#E4E3E3;
 }
 
 .my-logo{
