@@ -6,11 +6,12 @@
 				<img src="./img/logo.png" alt="藏汉大词典" width="70" height="60" class="img-responsive">
 			</a>
 		</div>
+		<div class="head-login-regist">
+            <a href="#">登录</a>|<a href="#">注册</a>
+        </div>
 	</div>
 	<div class="managerloginbar">
-		<span data-id="userInfoCon">
-            <span class="btn-login">登录</span>
-        </span>
+
 	</div>
 	
 	<div class="collapse navbar-collapse center" id="bs-example-navbar-collapse-1" style="margin-left: 20%;">

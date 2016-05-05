@@ -5,14 +5,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>藏语大词典 </title>
-		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/bootstrap.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/font.css">
 		
 		<link rel="shortcut icon" href="./img/icon.ico" /> 
 		
 		<script src="./js/jquery-1.12.1.min.js" type="text/javascript"></script>
-		<script src="./js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="./js/bootstrap.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="mask" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background-color: rgb(45, 45, 45); z-index: 9000; opacity: 0.7; display: none; over-flow:hidden;"></div>

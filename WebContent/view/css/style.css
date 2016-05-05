@@ -571,7 +571,7 @@ footer .beian:hover { color:#fa460a; }
 	.blog-post .post { padding:30px 32px; margin-bottom:10px; border: solid 1px #e1e1e1; box-shadow: 3px 3px 3px #e1e2e3, inset 0 0 3px #ffffff; border-radius:4px; background:#fff; }
 	.content-panel { padding-bottom:30px; background:#f3f4f6; }
 	.sidebar .sidebar-widget { margin-bottom:15px; border: solid 1px #e1e1e1; box-shadow: 0 0 3px #eeeeee, inset 0 0 3px #ffffff; border-radius:4px; background:#fff }
-	.container .aboutj { padding-top:60px; padding-bottom:60px; margin-bottom:0; }
+	.container .aboutj { padding-top:60px; padding-bottom:60px;     margin-bottom: 10px;   margin-top: 10px; }
 	.container .aboutj h1, .container .aboutj p { color:#666; }
 	.aboutdesc { font-size:14px; color:#333; }
 	.breadcrumb { background:none }
@@ -614,7 +614,7 @@ footer .beian:hover { color:#fa460a; }
 	.navbar-collapse { padding-left:15px; padding-right:15px }
 	.sidebar { padding-left:43px; padding-right:15px }
 	.container .jumbotron-index { padding:130px 150px }
-	.container .aboutj { padding-top:60px; padding-bottom:60px; margin-bottom:0; }
+	.container .aboutj { padding-top:60px; padding-bottom:60px; margin-bottom:10px; }
 	.container .aboutj h1, .container .aboutj p { color:#666; }
 	.block-shequ .shequi { padding-bottom:160px; }
 	.block-shequ .jumbotron { padding:160px 228px 80px; margin-bottom: 0; }
@@ -630,7 +630,7 @@ footer .beian:hover { color:#fa460a; }
 	.carousel-caption { font-size:26px; margin-top:30px; }
 	.carousel-caption .xiaoyuncu { font-size:46px; }
 	.container .jumbotron-index { padding:130px 215px }
-	.container .aboutj { padding-top:60px; padding-bottom:10px; margin-bottom:0; }
+	.container .aboutj { padding-top:60px; padding-bottom:10px; margin-bottom:10px; }
 	.container .aboutj h1, .container .aboutj p { color:#666; }
 	.block-shequ .shequi { padding-bottom:40px; }
 	.block-shequ .jumbotron { padding:80px 228px 40px; margin-bottom: 0; }
