@@ -18,17 +18,23 @@
 		<ul class="nav navbar-nav">
  			<li class="active" style="padding: 5px 5px;"><a href="./index.jsp">首页</a></li>
 			<li class="dropdown" style="padding: 5px 5px;">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">方言比较 <span class="caret"></span></a>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">方言导入 <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
 					<li style="padding: 0px 0px;"><a class="liopen" href="./lanpoint.jsp">调入方言</a></li>
 					<li style="padding: 0px 0px;"><a class="liopen" href="./databaseStandard.jsp">数据库规范化</a></li>
 					<li style="padding: 0px 0px;"><a class="liopen" href="#">用方言调查字典建数据库</a></li>
-					<li style="padding: 0px 0px;"><a class="liopen" href="#">语音处理</a></li>
-					<li style="padding: 0px 0px;"><a class="liopen" href="./tibetanCompare.jsp">方言与方言比较</a></li>
-					<li style="padding: 0px 0px;"><a class="liopen" href="#">方言地图</a></li>
 				</ul>
 			</li>
-			<li style="padding: 5px 5px;"><a href="">文本处理</a></li>
+			<li class="dropdown" style="padding: 5px 5px;">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">方言比较 <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li style="padding: 0px 0px;"><a class="liopen" href="#">语音处理</a></li>
+					<li style="padding: 0px 0px;"><a class="liopen" href="./compared.jsp">古藏文与方言比较</a></li>
+					<li style="padding: 0px 0px;"><a class="liopen" href="./compared.jsp">方言与古藏文比较</a></li>
+					<li style="padding: 0px 0px;"><a class="liopen" href="./compared.jsp">方言与方言比较</a></li>
+				</ul>
+			</li>
+			<li style="padding: 5px 5px;"><a href="./softwaredownload.jsp">文本处理</a></li>
 			<li style="padding: 5px 5px;"><a href="./search.jsp">藏汉词典</a></li>
 			<li style="padding: 5px 5px;"><a href="./download.jsp">下载专区</a></li>
 			<li style="padding: 5px 5px;"><a href="./about.jsp">联系我们</a></li>

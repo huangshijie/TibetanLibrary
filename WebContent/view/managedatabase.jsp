@@ -20,38 +20,12 @@
 		
 		<%@ include file="head1.jsp"%>
 
-		<div class="downloadContainer">
-			<div class="container">
-				<h1 style="font-family: inherit;font-weight: 500;font-size: 60px;">下载</h1>
-				<p>包含了来自多个地区所采集到得语言数据库，由广大网友共同搭建而成。</p>
-			</div>
-		</div>
-<!--  
-		<div class="container bs-docs-containeriner" style="    padding-right: 15px;    padding-left: 15px;    margin-right: auto;    margin-left: auto;">
-			<div class="list-group packages">
-				<a href="/bootstrap/" class="package list-group-item">
-					<div class="row">
-						<div class="col-md-3">
-							<h4 class="package-name">bootstrap</h4>
-						</div>
-						<div class="col-md-9 hidden-xs">
-							<p class="package-description">The most popular front-end framework for developing responsive, mobile first projects on the web.</p>
-						</div>
-						<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-							<span><i class="fa fa-star"></i> 92793</span>
-						</div>
-					</div>
-					</a>
-			</div>
-		</div>
--->
-
 		<div class="container bs-docs-container">
 			<div class="row">
 				<div role="main">
 					<div class="bs-docs-section">
 						<h1 id="download" class="page-header">数据库集合</h1>
-						<p class="lead">使用请标明出处，请尊重他人劳动成果，看看哪种数据库适合你的需求吧。</p>
+						<p class="lead">系统数据库管理</p>
 					</div>
 					<div class="list-group packages">
 						<a href="/#" class="package list-group-item">
@@ -59,21 +33,11 @@
 								<div class="col-md-3">
 									<h4 class="package-name">采集人</h4>
 								</div>
-								<div class="col-md-9 hidden-xs">
+								<div class="col-md-6 hidden-xs">
 									<p class="package-description">简介</p>
 								</div>
-							</div>
-						</a>
-						<a href="/#" class="package list-group-item">
-							<div class="row">
-								<div class="col-md-3">
-									<h4 class="package-name">甲某某</h4>
-								</div>
-								<div class="col-md-9 hidden-xs">
-									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
-								</div>
-								<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-									<span class="icon icon-small"><span class="icon-download"></span><span style="margin-left:18px">92793</span></span>
+								<div class="col-md-3 hidden-xs">
+									<p class="package-description">是否添加到数据库</p>
 								</div>
 							</div>
 						</a>
@@ -82,11 +46,14 @@
 								<div class="col-md-3">
 									<h4 class="package-name">甲某某</h4>
 								</div>
-								<div class="col-md-9 hidden-xs">
+								<div class="col-md-6 hidden-xs">
 									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
 								</div>
-								<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-									<span class="icon icon-small"><span class="icon-download"></span><span style="margin-left:18px">92793</span></span>
+								<div class="col-md-3 hidden-xs">
+									<div class="btn-group" data-toggle="buttons">
+									   <label class="btn btn-primary"><input type="radio" name="options" id="option1"> 是  </label>
+									   <label class="btn btn-primary"><input type="radio" name="options" id="option2"> 否  </label>
+									</div>   
 								</div>
 							</div>
 						</a>
@@ -95,11 +62,14 @@
 								<div class="col-md-3">
 									<h4 class="package-name">甲某某</h4>
 								</div>
-								<div class="col-md-9 hidden-xs">
+								<div class="col-md-6 hidden-xs">
 									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
 								</div>
-								<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-									<span class="icon icon-small"><span class="icon-download"></span><span style="margin-left:18px">92793</span></span>
+								<div class="col-md-3 hidden-xs">
+									<div class="btn-group" data-toggle="buttons">
+									   <label class="btn btn-primary"><input type="radio" name="options" id="option1"> 是  </label>
+									   <label class="btn btn-primary"><input type="radio" name="options" id="option2"> 否  </label>
+									</div>  
 								</div>
 							</div>
 						</a>
@@ -108,11 +78,30 @@
 								<div class="col-md-3">
 									<h4 class="package-name">甲某某</h4>
 								</div>
-								<div class="col-md-9 hidden-xs">
+								<div class="col-md-6 hidden-xs">
 									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
 								</div>
-								<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-									<span class="icon icon-small"><span class="icon-download"></span><span style="margin-left:18px">92793</span></span>
+								<div class="col-md-3 hidden-xs">
+									<div class="btn-group" data-toggle="buttons">
+									   <label class="btn btn-primary"><input type="radio" name="options" id="option1"> 是  </label>
+									   <label class="btn btn-primary"><input type="radio" name="options" id="option2"> 否  </label>
+									</div>  
+								</div>
+							</div>
+						</a>
+						<a href="/#" class="package list-group-item">
+							<div class="row">
+								<div class="col-md-3">
+									<h4 class="package-name">甲某某</h4>
+								</div>
+								<div class="col-md-6 hidden-xs">
+									<p class="package-description">采集地点，巴拉巴拉，采集人，巴拉巴拉</p>
+								</div>
+								<div class="col-md-3 hidden-xs">
+									<div class="btn-group" data-toggle="buttons">
+									   <label class="btn btn-primary"><input type="radio" name="options" id="option1"> 是  </label>
+									   <label class="btn btn-primary"><input type="radio" name="options" id="option2"> 否  </label>
+									</div>  
 								</div>
 							</div>
 						</a>

@@ -39,45 +39,31 @@
 						<div class="col-md-11">
 							<div class="row" style="padding:10px">
 								<div class="col-md-4">
-									<select class="myselect">
-										<option value="请选择省">请选择省</option>
-										<option value="某省1">某省1</option>
-										<option value="某省2">某省2</option>
-										<option value="某省3">某省3</option>
-										<option value="某省4">某省4</option>
-									</select>
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">请选择省<span class="caret"></span></button>
+									<ul class="dropdown-menu" role="menu" style="text-align: center;">
+										<li>某省</li>
+										<li>某省</li>
+										<li>某省</li>
+										<li>某省</li>
+									</ul>
 								</div>
 								<div class="col-md-4">
-									<select class="myselect">
-										<option value="请选择省">请选择市/区</option>
-										<option value="某市/区1">某市/区1</option>
-										<option value="某市/区2">某市/区2</option>
-										<option value="某市/区3">某市/区3</option>
-										<option value="某市/区4">某市/区4</option>
-									</select>
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">请选择市/区<span class="caret"></span></button>
+									<ul class="dropdown-menu" role="menu" style="text-align: center;">
+										<li>某市/区</li>
+										<li>某市/区</li>
+										<li>某市/区</li>
+										<li>某市/区</li>
+									</ul>
 								</div>
 								<div class="col-md-4">
-									<select class="myselect">
-										<option value="请选择省">请选择县</option>
-										<option value="某县1">某县1</option>
-										<option value="某县2">某县2</option>
-										<option value="某县3">某县3</option>
-										<option value="某县4">某县4</option>
-									</select>
-								</div>
-							</div>
-							<div class="row" style="padding:10px">
-								<div class="col-md-3">
-									<input type="text" class="form-control">
-								</div>
-								<div class="col-md-3" style="text-align:center">
-									<p><strong>镇</strong></p>
-								</div>
-								<div class="col-md-3">
-									<input type="text" class="form-control">
-								</div>
-								<div class="col-md-3" style="text-align:center">
-									<p><strong>村</strong></p>
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">请选择县<span class="caret"></span></button>
+									<ul class="dropdown-menu" role="menu" style="text-align: center;">
+										<li>某县</li>
+										<li>某县</li>
+										<li>某县</li>
+										<li>某县</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -98,13 +84,12 @@
 									<input type="hidden" id="dtp_input2" value="" /><br/>
 								</div>
 								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-2">
-									<select class="myselect">
-										<option value="性别">性别</option>
-										<option value="某市/区3">男</option>
-										<option value="某市/区4">女</option>
-									</select>
+								<div class="col-md-3">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">性别 <span class="caret"></span></button>
+									<ul class="dropdown-menu" role="menu" style="text-align:center">
+										<li>男</li>
+										<li>女</li>
+									</ul>
 								</div>
 							</div>
 							<div class="row" style="padding:10px">
@@ -131,51 +116,13 @@
 							</div>
 						</div>
 						<div class="row" style="padding:10px; text-align:center">
-							<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg">取消</button></div>
-							<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./comparedsingle.jsp'">下一步</button></div>
+							<div class="col-md-6"></div>
+							<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg">导出到 EXCEL</button></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<%@ include file="footer.jsp"%>
-		
-		
-		<script type="text/javascript" src="./js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
-		<script type="text/javascript" src="./js/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
-		<script type="text/javascript">
-		    $('.form_datetime').datetimepicker({
-		        //language:  'fr',
-		        weekStart: 1,
-		        todayBtn:  1,
-				autoclose: 1,
-				todayHighlight: 1,
-				startView: 2,
-				forceParse: 0,
-		        showMeridian: 1
-		    });
-			$('.form_date').datetimepicker({
-		        language:  'zh-CN',
-		        weekStart: 1,
-		        todayBtn:  1,
-				autoclose: 1,
-				todayHighlight: 1,
-				startView: 2,
-				minView: 2,
-				forceParse: 0
-		    });
-			$('.form_time').datetimepicker({
-		        language:  'zh-CN',
-		        weekStart: 1,
-		        todayBtn:  1,
-				autoclose: 1,
-				todayHighlight: 1,
-				startView: 1,
-				minView: 0,
-				maxView: 1,
-				forceParse: 0
-		    });
-		</script>
-		
 	</body>
 </html>
