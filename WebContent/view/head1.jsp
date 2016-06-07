@@ -7,7 +7,7 @@
 			</a>
 		</div>
 		<div class="head-login-regist">
-            <a href="#">登录</a>|<a href="#">注册</a>
+            <a href="./login.jsp">登录</a>|<a href="./regist.jsp">注册</a>
         </div>
 	</div>
 	<div class="managerloginbar">

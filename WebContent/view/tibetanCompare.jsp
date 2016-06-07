@@ -19,26 +19,7 @@
 		
 		<%@ include file="head1.jsp"%>
 	
-		<div class="wrap">
-			<div id="simple-carousel" class="carousel slide hidden-xs" data-ride="carousel" style="width:100%; height:50px; background-color:#FA460A">
-				
-				<!-- <div class="carousel-inner" role="listbox">
-					<div class="item active">
-						
-						<img src="http://www.xiaoyun.com/static/xiaoyun/images/WiFi_banner-0.5s.gif" alt="..." width="1920" height="50" >
-							居中大图
-						
-					</div>
-				</div>
-				-->
-			</div>
-			<div class="container">
-				<div class="navigation-strip effect2">
-					<div class="navigation">
-							<p style="text-align: center;font-size: 33px;font-weight: normal;color: #333;">汉藏翻译详解</p>
-					</div>
-				</div>
-			</div>
+		<div class="wrap" style="width: 80%; margin: 30px auto;">
 			<div class="container">
 				<div class="content">
 					<div class="tab_with_slider">
