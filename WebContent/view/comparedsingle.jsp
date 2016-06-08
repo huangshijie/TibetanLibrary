@@ -66,8 +66,46 @@
 
 					<div class="row">
 						<div class="well well-white clearfix" style="padding:10px">
-							<table class="table">
-									
+							<table class="table table-striped">
+							   <thead>
+							      <tr>
+							         <th>对比栏目1</th>
+							         <th>对比栏目2</th>
+							         <th>对比栏目3</th>
+							      </tr>
+							   </thead>
+							   <tbody>
+							      <tr>
+							         <td>对比结果1</td>
+							         <td>对比结果2</td>
+							         <td>对比结果3</td>
+							      </tr>
+							      <tr>
+							         <td>对比结果1</td>
+							         <td>对比结果2</td>
+							         <td>对比结果3</td>
+							      </tr>
+							      <tr>
+							         <td>对比结果1</td>
+							         <td>对比结果2</td>
+							         <td>对比结果3</td>
+							      </tr>
+							      <tr>
+							         <td>对比结果1</td>
+							         <td>对比结果2</td>
+							         <td>对比结果3</td>
+							      </tr>
+							      <tr>
+							         <td>对比结果1</td>
+							         <td>对比结果2</td>
+							         <td>对比结果3</td>
+							      </tr>
+							      <tr>
+							         <td>对比结果1</td>
+							         <td>对比结果2</td>
+							         <td>对比结果3</td>
+							      </tr>
+							   </tbody>
 							</table>
 						</div>
 						<div class="row" style="padding:10px; text-align:center">
