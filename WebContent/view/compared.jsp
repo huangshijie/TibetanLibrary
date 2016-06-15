@@ -26,10 +26,10 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div class="row" style="margin-bottom: 20px;">
-								<div class="col-md-5">
-									<p><strong>选择需要对比的数据库1：</strong></p>
+								<div class="col-md-3">
+									<p><strong>选择服务器数据库1：</strong></p>
 								</div>
-								<div class="col-md-7">
+								<div class="col-md-3">
 									<div class="col-md-4">
 										<select class="myselect">
 											<option value="请选择数据库">请选择数据库</option>
@@ -40,12 +40,19 @@
 										</select>
 									</div>
 								</div>
+								<div class="col-md-3">
+									<p><strong>或选择本地数据库1：</strong></p>
+								</div>
+								<div class="col-md-3">
+									<input type="file"  id="ff"  style="display: none" />
+									<button type="button" class="btn" onclick="document.getElementById('ff').click()">选择文件...</button>
+								</div>
 							</div>
 							<div class="row" style="margin-bottom: 20px;">
-								<div class="col-md-5">
-									<p><strong>选择需要对比的数据库2：</strong></p>
+								<div class="col-md-3">
+									<p><strong>选择服务器数据库2：</strong></p>
 								</div>
-								<div class="col-md-7">
+								<div class="col-md-3">
 									<div class="col-md-4">
 										<select class="myselect">
 											<option value="请选择数据库">请选择数据库</option>
@@ -56,20 +63,43 @@
 										</select>
 									</div>
 								</div>
+								<div class="col-md-3">
+									<p><strong>或选择本地数据库2：</strong></p>
+								</div>
+								<div class="col-md-3">
+									<input type="file"  id="ff"  style="display: none" />
+									<button type="button" class="btn" onclick="document.getElementById('ff').click()">选择文件...</button>
+								</div>
 							</div>
 							<div class="row" style="margin-bottom: 20px;">
 								<div class="col-md-5">
-									<p><strong>选择按何种方式对比：</strong></p>
+									<p><strong>选择选择对比内容：</strong></p>
 								</div>
 								
 								<div class="col-md-7">
 									<div class="col-md-4">
 										<select class="myselect">
-											<option value="请选择对比方式">请选择对比方式</option>
-											<option value="方式1">方式1</option>
-											<option value="方式2">方式2</option>
-											<option value="方式3">方式3</option>
-											<option value="方式4">方式4</option>
+											<option value="请选择对比方式">请选择内容</option>
+											<option value="方言声母比较">方言声母比较</option>
+											<option value="方言韵母比较">方言韵母比较</option>
+											<option value="方言声调比较">方言声调比较</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row" style="margin-bottom: 20px;">
+								<div class="col-md-5">
+									<p><strong>选择对比规则：</strong></p>
+								</div>
+								
+								<div class="col-md-7">
+									<div class="col-md-4">
+										<select class="myselect">
+											<option value="请选择对比规则">请选择对比规则</option>
+											<option value="规则1">规则1</option>
+											<option value="规则2">规则2</option>
+											<option value="规则3">规则3</option>
+											<option value="规则4">规则4</option>
 										</select>
 									</div>
 								</div>

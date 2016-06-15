@@ -22,29 +22,10 @@
 
 		<div class="downloadContainer">
 			<div class="container">
-				<h1 style="font-family: inherit;font-weight: 500;font-size: 60px;">下载</h1>
+				<h1 style="font-family: inherit;font-weight: 500;font-size: 60px;">下载数据库</h1>
 				<p>包含了来自多个地区所采集到得语言数据库，由广大网友共同搭建而成。</p>
 			</div>
 		</div>
-<!--  
-		<div class="container bs-docs-containeriner" style="    padding-right: 15px;    padding-left: 15px;    margin-right: auto;    margin-left: auto;">
-			<div class="list-group packages">
-				<a href="/bootstrap/" class="package list-group-item">
-					<div class="row">
-						<div class="col-md-3">
-							<h4 class="package-name">bootstrap</h4>
-						</div>
-						<div class="col-md-9 hidden-xs">
-							<p class="package-description">The most popular front-end framework for developing responsive, mobile first projects on the web.</p>
-						</div>
-						<div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-							<span><i class="fa fa-star"></i> 92793</span>
-						</div>
-					</div>
-					</a>
-			</div>
-		</div>
--->
 
 		<div class="container bs-docs-container">
 			<div class="row">
@@ -129,8 +110,6 @@
 				</div>
 			</div>
 		</div>
-
-		
 		<%@ include file="footer.jsp"%>
 	</body>
 </html>

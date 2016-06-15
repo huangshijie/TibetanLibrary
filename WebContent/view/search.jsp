@@ -42,8 +42,8 @@
 						</p>
 						<div>
 							<input type="text" class="form-control" placeholder="请输入您想翻译的内容" style="float:left; width: 65%; height: 50px;">
-							<button type="button" class="btn btn-primary btn-lg">藏 转 汉</button>
-							<button type="button" class="btn btn-primary btn-lg">汉 转 藏</button>
+							<button type="button" class="btn btn-primary btn-lg">藏 译 汉</button>
+							<button type="button" class="btn btn-primary btn-lg">汉 译 藏</button>
 						</div>
 					</div>
 				</div>

@@ -41,10 +41,11 @@
 								<div class="col-md-4">
 									<select class="myselect">
 										<option value="请选择省">请选择省</option>
-										<option value="某省1">某省1</option>
-										<option value="某省2">某省2</option>
-										<option value="某省3">某省3</option>
-										<option value="某省4">某省4</option>
+										<option value="qinghai">青海</option>
+										<option value="gansu">甘肃</option>
+										<option value="sichuan">四川</option>
+										<option value="xizang">西藏</option>
+										<option value="yunnan">云南</option>
 									</select>
 								</div>
 								<div class="col-md-4">

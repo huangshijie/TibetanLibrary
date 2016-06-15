@@ -26,10 +26,19 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div class="row" style="margin-bottom: 20px;">
-								<div class="col-md-5">
-									<p><strong>选择需要对比的数据库：</strong></p>
+								<div class="col-md-3">
+									<p><strong>选择本地数据库：</strong></p>
 								</div>
-								<div class="col-md-7">
+								<div class="col-md-3">
+									<input type="file"  id="ff"  style="display: none" />
+									<button type="button" class="btn" onclick="document.getElementById('ff').click()">选择文件...</button>
+								</div>
+							</div>
+							<div class="row" style="margin-bottom: 20px;">
+								<div class="col-md-3">
+									<p><strong>选择服务器数据库：</strong></p>
+								</div>
+								<div class="col-md-3">
 									<div class="col-md-4">
 										<select class="myselect">
 											<option value="请选择数据库">请选择数据库</option>
@@ -39,6 +48,13 @@
 											<option value="数据库4">数据库4</option>
 										</select>
 									</div>
+								</div>
+								<div class="col-md-3">
+									<p><strong>或选择本地数据库：</strong></p>
+								</div>
+								<div class="col-md-3">
+									<input type="file"  id="ff"  style="display: none" />
+									<button type="button" class="btn" onclick="document.getElementById('ff').click()">选择文件...</button>
 								</div>
 							</div>
 							<div class="row" style="margin-bottom: 20px;">

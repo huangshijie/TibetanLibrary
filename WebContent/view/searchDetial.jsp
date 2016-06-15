@@ -17,30 +17,11 @@
 	<body>
 		<div id="mask" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background-color: rgb(45, 45, 45); z-index: 9000; opacity: 0.7; display: none; over-flow:hidden;"></div>
 
-		<%@ include file="header.jsp"%>
+		<%@ include file="head1.jsp"%>
 	
-		<div class="wrap">
-			<div id="simple-carousel" class="carousel slide hidden-xs" data-ride="carousel" style="width:100%; height:50px; background-color:#FA460A">
-				
-				<!-- <div class="carousel-inner" role="listbox">
-					<div class="item active">
-						
-						<img src="http://www.xiaoyun.com/static/xiaoyun/images/WiFi_banner-0.5s.gif" alt="..." width="1920" height="50" >
-							居中大图
-						
-					</div>
-				</div>
-				-->
-			</div>
+		<div class="wrap" style="width: 80%; margin: 30px auto;">
 			<div class="container">
-				<div class="navigation-strip effect2">
-					<div class="navigation">
-							<p style="text-align: center;font-size: 33px;font-weight: normal;color: #333;">汉藏翻译详解</p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="content">
+				<div class="content" style="padding:20px;border-radius: 4px;">
 					<div class="tab_with_slider">
 						<div class="tab-head text-center" style="text-align: left;padding: 63px;line-height: 35px;">
 							<h3>藏文：<strong>།ཀ།</strong></h3>
@@ -88,9 +69,9 @@
 								<div id="collapseThree" class="panel-collapse collapse in">
 									<div class="panel-body">
 										<ul class="list-group">
-											<li class="list-group-item"><p>康巴：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
-											<li class="list-group-item"><p>拉萨：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
-											<li class="list-group-item"><p>康巴：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
+											<li class="list-group-item"><p>安多发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
+											<li class="list-group-item"><p>拉萨发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
+											<li class="list-group-item"><p>康巴发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
 										</ul>
 									</div>
 								</div>
