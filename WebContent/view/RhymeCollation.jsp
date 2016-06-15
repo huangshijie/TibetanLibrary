@@ -30,13 +30,13 @@
 						<div class="well well-white clearfix" style="padding:10px">
 							<div class="row" style="padding:10px">
 								<div class="col-md-4">
-									<button type="button" class="btn" onclick="javascript:location.href='./DialectConsonantInput.jsp'">声母</button>
+									<button type="button" class="btn" onclick="javascript:location.href='#'">声母</button>
 								</div>
 								<div class="col-md-4">
-									<button type="button" class="btn" onclick="javascript:location.href='./DialectToneInput.jsp'">韵母</button>
+									<button type="button" class="btn" onclick="javascript:location.href='#'">韵母</button>
 								</div>
 								<div class="col-md-4">
-									<button type="button" class="btn" onclick="javascript:location.href='./DialectToneInput.jsp'">同音字表</button>
+									<button type="button" class="btn" onclick="javascript:location.href='#'">同音字表</button>
 								</div>
 							</div>
 							<div class="row" style="padding:10px">
@@ -58,19 +58,19 @@
 							
 							<div class="row" style="padding:10px">
 								<div class="col-md-3">
-									<button type="button" class="btn" onclick="javascript:location.href='./DialectRhymeHeadInput.jsp'">输入韵核</button>
+									<button type="button" class="btn" onclick="javascript:location.href='#'">输入韵核</button>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn" onclick="javascript:location.href='./DialectConsonantInput.jsp'">选择方言</button>
+									<button type="button" class="btn" onclick="javascript:location.href='#'">选择方言</button>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn" onclick="javascript:location.href='./DialectRhymeHeadInput.jsp'">浏览</button>
+									<button type="button" class="btn" onclick="javascript:location.href='#'">浏览</button>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn" onclick="javascript:location.href='./DialectConsonantInput.jsp'">清除</button>
+									<button type="button" class="btn" onclick="javascript:location.href='#'">清除</button>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn" onclick="javascript:location.href='./DialectRhymeHeadInput.jsp'">返回首页</button>
+									<button type="button" class="btn" onclick="javascript:location.href='./index.jsp'">返回首页</button>
 								</div>
 								<div class="col-md-1"></div>
 							</div>
