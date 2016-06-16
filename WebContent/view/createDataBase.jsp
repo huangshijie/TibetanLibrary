@@ -30,15 +30,15 @@
 						<div class="well well-white clearfix" style="padding:10px">
 							<div class="row" style="padding:10px">
 								<div class="col-md-6">
-									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./DialectConsonantInput.jsp'">输入声母</button>
+									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./postTable.do?table=DialectConsonantInput'">输入声母</button>
 								</div>
 								<div class="col-md-6">
-									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./DialectToneInput.jsp'">输入声调</button>
+									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./postTable.do?table=DialectToneInput'">输入声调</button>
 								</div>
 							</div>
 							<div class="row" style="padding:10px">
 								<div class="col-md-6">
-									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./DialectRhymeHeadInput.jsp'">输入韵头</button>
+									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./postTable.do?table=DialectRhymeHeadInput'">输入韵头</button>
 								</div>
 								<div class="col-md-6">
 									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./DialectConsonantInput.jsp'">更新数据库</button>
@@ -46,7 +46,7 @@
 							</div>
 							<div class="row" style="padding:10px">
 								<div class="col-md-6">
-									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./DialectRhymeCoreInput.jsp'">输入韵核</button>
+									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./postTable.do?table=DialectRhymeCoreInput'">输入韵核</button>
 								</div>
 								<div class="col-md-6">
 									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./DatabaseProofreading.jsp'">校 对</button>
@@ -54,7 +54,7 @@
 							</div>
 							<div class="row" style="padding:10px">
 								<div class="col-md-6">
-									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./DialectRhymeCodaInput.jsp'">输入韵尾</button>
+									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./postTable.do?table=DialectRhymeCodaInput'">输入韵尾</button>
 								</div>
 								<div class="col-md-6">
 									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./index.jsp'">返回首页</button>

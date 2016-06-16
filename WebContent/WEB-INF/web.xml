@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>TibetanLibrary</display-name>
+  <description>TibetanLibrary</description>
+  <servlet>
+    <servlet-name>PostTable</servlet-name>
+    <servlet-class>com.TibetanLibrary.servlet.PostTable</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostTable</servlet-name>
+    <url-pattern>/view/postTable.do</url-pattern>
+  </servlet-mapping>
+  <jsp-config>
+<taglib>
+<taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+<taglib-location>/WEB-INF/c.tld</taglib-location>
+</taglib>
+</jsp-config>
+</web-app>

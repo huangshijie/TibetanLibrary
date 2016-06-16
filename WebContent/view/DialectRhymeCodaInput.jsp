@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
@@ -29,115 +30,40 @@
 					<div class="row">
 						<div class="col-md-4" style="text-align:center">
 						<div class="well well-white clearfix" style="padding:10px">
-							<table class="table table-striped">
+							<table class="table table-bordered" style="width: 100%;height:400px;overflow-x: auto; display: inline-block; overflow-y: auto;">
 							   <thead>
 							      <tr>
-							         <th>声母 </th>
-							         <th>声母 </th>
-							         <th>声母 </th>
+							         <th>translationText</th>
+							         <th>representationText</th>
+							         <th>transcriptionText</th>
+							         <th>subText1</th>
+							         <th>subText2</th>
+							         <th>subText3</th>
+							         <th>subText4</th>
+							         <th>subText1nucleus</th>
+							         <th>subText2nucleus</th>
+							         <th>subText3nucleus</th>
+							         <th>subText4nucleus</th>
+							         <th>notes</th>
 							      </tr>
 							   </thead>
 							   <tbody>
-							      <tr>
-							         <td> </td>
-							         <td> </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td> </td>
-							         <td> </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td> </td>
-							         <td> </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
-							      <tr>
-							         <td>  </td>
-							         <td>  </td>
-							         <td>  </td>
-							      </tr>
+							   <c:forEach items = "${list}" var = "table">
+								   <tr>
+								         <td>${table.hanTranslationText}</td>
+								         <td>${table.representationText}</td>
+								         <td>${table.zangTranslationText}</td>
+								         <td>${table.subText1}</td>
+								         <td>${table.subText2}</td>
+								         <td>${table.subText3}</td>
+								         <td>${table.subText4}</td>
+								         <td>${table.subText1onset}</td>
+								         <td>${table.subText2onset}</td>
+								         <td>${table.subText3onset}</td>
+								         <td>${table.subText4onset}</td>
+								         <td>${table.notes}</td>
+								   </tr>
+							   </c:forEach>
 							   </tbody>
 							</table>
 							</div>
