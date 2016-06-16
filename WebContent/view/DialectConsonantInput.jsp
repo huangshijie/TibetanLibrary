@@ -29,12 +29,21 @@
 					<div class="row">
 						<div class="col-md-4" style="text-align:center">
 						<div class="well well-white clearfix" style="padding:10px">
-							<table class="table table-striped">
+							<table class="table table-bordered" style="width: 100%;overflow-x: auto; display: inline-block; overflow-y: auto;">
 							   <thead>
 							      <tr>
-							         <th>声母 </th>
-							         <th>声母 </th>
-							         <th>声母 </th>
+							         <th>translationText</th>
+							         <th>representationText</th>
+							         <th>transcriptionText</th>
+							         <th>subText1</th>
+							         <th>subText2</th>
+							         <th>subText3</th>
+							         <th>subText4</th>
+							         <th>subText1tone</th>
+							         <th>subText2tone</th>
+							         <th>subText3tone</th>
+							         <th>subText4tone</th>
+							         <th>notes</th>
 							      </tr>
 							   </thead>
 							   <tbody>
