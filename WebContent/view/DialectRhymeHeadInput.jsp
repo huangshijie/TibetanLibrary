@@ -23,7 +23,7 @@
 		<div class="wrap" style="width: 80%; margin: 30px auto;">
 			
 			<div class="content" style="padding:20px;border-radius: 4px;">
-				<div class="container">
+				<div class="container" style="width: 100%;">
 					<div class="row">
 						<h1 style="margin: auto; width: initial; padding: 46px; width: 30%;">方言韵头输入</h1>
 					</div>
@@ -54,7 +54,7 @@
 								         <td>${table.representationText}</td>
 								         <td>${table.zangTranslationText}</td>
 								         <td>${table.subText1}</td>
-								         <td>${table.subText2}</td>
+										 <td>${table.subText2}</td>
 								         <td>${table.subText3}</td>
 								         <td>${table.subText4}</td>
 								         <td>${table.subText1onset}</td>

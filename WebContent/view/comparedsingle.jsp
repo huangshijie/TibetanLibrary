@@ -22,7 +22,7 @@
 		<div class="wrap" style="width: 80%; margin: 30px auto;">
 			
 			<div class="content" style="padding:20px;border-radius: 4px;">
-				<div class="container">
+				<div class="container" style="width: 100%;">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="row" style="margin-bottom: 20px;">
@@ -66,10 +66,9 @@
 									<div class="col-md-4">
 										<select class="myselect">
 											<option value="请选择对比方式">请选择对比方式</option>
-											<option value="方式1">方式1</option>
-											<option value="方式2">方式2</option>
-											<option value="方式3">方式3</option>
-											<option value="方式4">方式4</option>
+											<option value="方式1">古藏文与方言的比较</option>
+											<option value="方式2">方言与古藏文的比较</option>
+											<option value="方式3">方言与方言的比较</option>
 										</select>
 									</div>
 								</div>
@@ -126,7 +125,7 @@
 						</div>
 						<div class="row" style="padding:10px; text-align:center">
 							<div class="col-md-6"></div>
-							<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg">导出到 EXCEL</button></div>
+							<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg">导出结果</button></div>
 						</div>
 					</div>
 				</div>

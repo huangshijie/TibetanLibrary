@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 		<header style="border-bottom:1px solid #eeeeee">
 			<nav class="navbar navbar-default">
-				<div class="container">
+				<div class="container" style="width: 100%;">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="./index.jsp">
 						<img src="./img/logo.png" alt="小云" width="70" height="46" class="img-responsive"></a>

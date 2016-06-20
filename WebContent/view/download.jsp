@@ -21,7 +21,7 @@
 		<%@ include file="head1.jsp"%>
 
 		<div class="downloadContainer">
-			<div class="container">
+			<div class="container" style="width: 100%;">
 				<h1 style="font-family: inherit;font-weight: 500;font-size: 60px;">下载数据库</h1>
 				<p>包含了来自多个地区所采集到得语言数据库，由广大网友共同搭建而成。</p>
 			</div>

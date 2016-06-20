@@ -23,7 +23,7 @@
 		<div class="wrap" style="width: 80%; margin: 30px auto;">
 			
 			<div class="content" style="padding:20px;border-radius: 4px;">
-				<div class="container">
+				<div class="container" style="width: 100%;">
 					<div class="row">
 						<h1 style="margin: auto; width: initial; padding: 46px; width: 30%;">方言声母输入</h1>
 					</div>
@@ -86,95 +86,9 @@
 									<button type="button" class="btn">清除音标</button>
 								</div> 
 							</div>
-							<div class="row" style=" margin-top:10px">
-								<div class="col-md-12" style="text-align:center">
-									<div class="btn-group">
-										<button type="button" class="btn btn-default">k</button>
-										<button type="button" class="btn btn-default">p</button>
-										<button type="button" class="btn btn-default">t</button>
-										<button type="button" class="btn btn-default">ph</button>
-										<button type="button" class="btn btn-default">kh</button>
-										<button type="button" class="btn btn-default">th</button>
-										<button type="button" class="btn btn-default">ch</button>
-										<button type="button" class="btn btn-default">b</button>
-										<button type="button" class="btn btn-default">d</button>
-										<button type="button" class="btn btn-default">g</button>
-										<button type="button" class="btn btn-default">f</button>
-										<button type="button" class="btn btn-default">s</button>
-										<button type="button" class="btn btn-default">xh</button>
-										<button type="button" class="btn btn-default">h</button>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12" style="text-align:center">	
-									<div class="btn-group">
-										<button type="button" class="btn btn-default">z</button>
-										<button type="button" class="btn btn-default">ʝ</button>
-										<button type="button" class="btn btn-default">ts</button>
-										<button type="button" class="btn btn-default">tʂ</button>
-										<button type="button" class="btn btn-default">ʨ</button>
-										<button type="button" class="btn btn-default">tsh</button>
-										<button type="button" class="btn btn-default">tʂh</button>
-										<button type="button" class="btn btn-default">ʨh</button>
-										<button type="button" class="btn btn-default">dz</button>
-										<button type="button" class="btn btn-default">dʐ</button>
-										<button type="button" class="btn btn-default">m</button>
-										<button type="button" class="btn btn-default">n</button>
-										<button type="button" class="btn btn-default">ŋ</button>
-										<button type="button" class="btn btn-default">r</button>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12" style="text-align:center">
-									<div class="btn-group">
-										<button type="button" class="btn btn-default">l</button>
-										<button type="button" class="btn btn-default">w</button>
-										<button type="button" class="btn btn-default">ʔh</button>
-										<button type="button" class="btn btn-default">ɥ</button>
-									</div>
-								</div>
-							</div>
-							<div class="row" style="margin-top:10px;">
-								<div class="col-md-1" style="text-align:center">声</div>
-								<div class="col-md-2" style="text-align:center">舒声韵</div>
-								<div class="col-md-2" style="text-align:center">入声韵</div>
-								<div class="col-md-1" style="text-align:center">调</div>
-								<div class="col-md-1" style="text-align:center">开合</div>
-								<div class="col-md-1" style="text-align:center">摄</div>
-								<div class="col-md-1" style="text-align:center">洪细</div>
-								<div class="col-md-1" style="text-align:center">平仄</div>
-								<div class="col-md-2" style="text-align:center">原声母</div>
-							</div>
-							<div class="row">
-								<div class="col-md-1" style="text-align:center"><select><option> </option><option>声1</option><option>声2</option></select></div>
-								<div class="col-md-2" style="text-align:center"><select><option> </option><option>舒声韵1</option><option>舒声韵2</option></select></div>
-								<div class="col-md-2" style="text-align:center"><select><option> </option><option>入声韵1</option><option>入声韵2</option></select></div>
-								<div class="col-md-1" style="text-align:center"><select><option> </option><option>调1</option><option>调2</option></select></div>
-								<div class="col-md-1" style="text-align:center"><select><option> </option><option>开合1</option><option>开合2</option></select></div>
-								<div class="col-md-1" style="text-align:center"><select><option> </option><option>摄1</option><option>摄2</option></select></div>
-								<div class="col-md-1" style="text-align:center"><select><option> </option><option>洪细1</option><option>洪细2</option></select></div>
-								<div class="col-md-1" style="text-align:center"><select><option> </option><option>平仄1</option><option>平仄2</option></select></div>
-								<div class="col-md-2" style="text-align:center"><input /></div>
-							</div>
 							<div class="row" style="padding:10px; text-align:center">
-								<div class="col-md-3" style="text-align:center"><button type="button" class="btn">按以上条件替换</button></div>
-								<div class="col-md-7" style="text-align:center"><input style="width:100%"/></div>
-								<div class="col-md-2" style="text-align:center"><button type="button" class="btn">清除</button></div>
-							</div>
-							<div class="row" style="padding:10px; text-align:center">
-								<div class="col-md-3" style="text-align:center"><button type="button" class="btn">按默认值替换</button></div>
-								<div class="col-md-2" style="text-align:center"><button type="button" class="btn">查字</button></div>
-								<div class="col-md-1" style="text-align:center"><input style="width:100%"/></div>
-								<div class="col-md-2" style="text-align:center"><button type="button" class="btn">加记录</button></div>
-								<div class="col-md-2" style="text-align:center"><button type="button" class="btn">传下记录</button></div>
-								<div class="col-md-2" style="text-align:center"><button type="button" class="btn">删除记录</button></div>
-							</div>
-							<div class="row" style="padding:10px; text-align:center">
-								<div class="col-md-3" style="text-align:center"><button type="button" class="btn">另保存于以下地址</button></div>
-								<div class="col-md-7" style="text-align:center"><input style="width:100%"/></div>
-								<div class="col-md-2" style="text-align:center"><button type="button" class="btn" onclick="javascript:location.href='./createDataBase.jsp'">返回上一页</button></div>
+								<div class="col-md-10" style="text-align:center"><input style="width:100%"/></div>
+								<div class="col-md-2" style="text-align:center"><button type="button" class="btn">确定</button></div>
 							</div>
 						</div>
 					</div>

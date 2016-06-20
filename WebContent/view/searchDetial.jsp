@@ -20,7 +20,7 @@
 		<%@ include file="head1.jsp"%>
 	
 		<div class="wrap" style="width: 80%; margin: 30px auto;">
-			<div class="container">
+			<div class="container" style="width: 100%;">
 				<div class="content" style="padding:20px;border-radius: 4px;">
 					<div class="tab_with_slider">
 						<div class="tab-head text-center" style="text-align: left;padding: 63px;line-height: 35px;">
@@ -69,9 +69,9 @@
 								<div id="collapseThree" class="panel-collapse collapse in">
 									<div class="panel-body">
 										<ul class="list-group">
-											<li class="list-group-item"><p>安多发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
-											<li class="list-group-item"><p>拉萨发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
-											<li class="list-group-item"><p>康巴发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p></li>
+											<li class="list-group-item"><p>安多发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p><p>国际音标：</p><p>[]</p></li>
+											<li class="list-group-item"><p>拉萨发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p><p>国际音标：</p><p>[]</p></li>
+											<li class="list-group-item"><p>康巴发音：<audio controls="controls"><source src="audio/00001天.wav" type="audio/mp3"/></audio></p><p>国际音标：</p><p>[]</p></li>
 										</ul>
 									</div>
 								</div>

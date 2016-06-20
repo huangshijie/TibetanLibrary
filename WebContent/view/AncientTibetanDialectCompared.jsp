@@ -22,7 +22,7 @@
 		<div class="wrap" style="width: 80%; margin: 30px auto;">
 			
 			<div class="content" style="padding:20px;border-radius: 4px;">
-				<div class="container">
+				<div class="container" style="width: 100%;">
 					<div class="row">	
 						<h1 style="margin: auto; width: initial; padding: 46px; width: 50%;">古 藏文 与 方 言 比 较</h1>
 					</div>

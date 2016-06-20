@@ -22,7 +22,7 @@
 		<%@ include file="head1.jsp"%>
 		<div class="wrap" style="background-color: #F1F1F1;">
 		
-			<div class="container">
+			<div class="container" style="width: 100%;">
 				<div class="jumbotron aboutj text-center" style="padding:0px">
 					<h1 style="color:#333; padding-top: 50px;">相关软件下载</h1>
 					<div class="container bnb">

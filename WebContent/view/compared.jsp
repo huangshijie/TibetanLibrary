@@ -22,7 +22,7 @@
 		<div class="wrap" style="width: 80%; margin: 30px auto;">
 			
 			<div class="content" style="padding:20px;border-radius: 4px;">
-				<div class="container">
+				<div class="container" style="width: 100%;">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="row" style="margin-bottom: 20px;">
@@ -156,7 +156,7 @@
 						</div>
 						<div class="row" style="padding:10px; text-align:center">
 							<div class="col-md-6"></div>
-							<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg">导出到 EXCEL</button></div>
+							<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg">导出结果</button></div>
 						</div>
 					</div>
 				</div>

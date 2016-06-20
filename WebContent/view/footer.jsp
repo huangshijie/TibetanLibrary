@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <footer>
-	<div class="container">
+	<div class="container" style="width: 90%;">
 		<div class="row ft-top">
 			<div class="col-md-4 col-sm-4">
 				<h4 style="color:#FFFFFF">ABOUT US</h4>

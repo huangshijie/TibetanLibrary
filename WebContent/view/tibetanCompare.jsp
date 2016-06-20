@@ -20,7 +20,7 @@
 		<%@ include file="head1.jsp"%>
 	
 		<div class="wrap" style="width: 80%; margin: 30px auto;">
-			<div class="container">
+			<div class="container" style="width: 100%;">
 				<div class="content">
 					<div class="tab_with_slider">
 						<div class="tab-head text-center" style="text-align: left;padding: 63px;line-height: 35px;">

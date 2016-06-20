@@ -21,7 +21,7 @@
 	
 		<div class="wrap" style="background-color: #F1F1F1;">
 		
-			<div class="container">
+			<div class="container" style="width: 100%;">
 				<div class="jumbotron aboutj text-center">
 					<h1 style="color:#333;">About Us</h1>
 					<p>

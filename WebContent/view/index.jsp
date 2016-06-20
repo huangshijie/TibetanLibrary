@@ -33,7 +33,7 @@
 	                <strong>藏语</strong>是<em>啊实打实的啊</em>按时打算是 <a href="#">首页</a>。 
 	            </div>
 	        </div>
-	        <div class="container">
+	        <div class="container" style="width: 90%;">
 		        <div style="width:40%;float: left;">
 					<div class="index-tongzhi">
 						<p class="index-z-p"> 

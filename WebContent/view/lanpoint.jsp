@@ -22,7 +22,7 @@
 		<div class="wrap" style="width: 80%; margin: 30px auto;">
 			
 			<div class="content" style="padding:20px;border-radius: 4px;">
-				<div class="container">
+				<div class="container" style="width: 100%;">
 					<div class="row">
 						<div class="col-md-1">
 							<p><strong>语言点：</strong></p>

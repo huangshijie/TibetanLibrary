@@ -36,7 +36,7 @@
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">方言比较 <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
 					<li style="padding: 0px 0px;"><a class="liopen" href="#">语音处理</a></li>
-					<li style="padding: 0px 0px;"><a class="liopen" href="./RhymeCollation.jsp">声韵整理</a></li>
+					<li style="padding: 0px 0px;"><a class="liopen" href="./RhymeCollation.jsp">方言地图</a></li>
 					<li style="padding: 0px 0px;"><a class="liopen" href="./AncientTibetanDialectCompared.jsp">古藏文与方言比较</a></li>
 					<li style="padding: 0px 0px;"><a class="liopen" href="./DialectAncientTibetanCompared.jsp">方言与古藏文比较</a></li>
 					<li style="padding: 0px 0px;"><a class="liopen" href="./compared.jsp">方言与方言比较</a></li>
