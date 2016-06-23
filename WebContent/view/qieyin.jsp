@@ -29,28 +29,24 @@
 							<table class="table table-bordered" style="width: 100%;height:400px;overflow-x: auto; display: inline-block; overflow-y: auto;">
 							   <thead>
 							      <tr>
-							         <th>translationText</th>
-							         <th>representationText</th>
-							         <th>transcriptionText</th>
-							         <th>syllablesCount</th>
-							         <th>primaryStressedPosition</th>
-							         <th>secondaryBtressedPosition</th>
-							         <th>syllable1Text</th>
-							         <th>syllable2Text</th>
-							         <th>syllable3Text</th>
-							         <th>syllable4Text</th>
-							         <th>syllable5Text</th>
-							         <th>syllable6Text</th>
-							         <th>syllable7Text</th>
-							         <th>syllable8Text</th>
-							         <th>syllable9Text</th>
-							         <th>syllable10Text</th>
-							         <th>syllable11Text</th>
-							         <th>syllable12Text</th>
-							         <th>syllable13Text</th>
-							         <th>syllable14Text</th>
-							         <th>syllable15Text</th>
-							         <th>syllable16Text</th>
+							         <th>text</th>
+							         <th>integrated</th>
+							         <th>shellText</th>
+							         <th>onsetText</th>
+							         <th>perinitialText</th>
+							         <th>pronunciationText</th>
+							         <th>initialText</th>
+							         <th>postinitialText</th>
+							         <th>finalText</th>
+							         <th>medialText</th>
+							         <th>rhymeText</th>
+							         <th>nuclensText</th>
+							         <th>onglideText</th>
+							         <th>mainText</th>
+							         <th>offglideText</th>
+							         <th>codaText</th>
+							         <th>bodyText</th>
+							         <th>toneText</th>
 							      </tr>
 							   </thead>
 							   <tbody>
@@ -73,6 +69,22 @@
 								         <td> </td>
 								         <td> </td>
 								         <td> </td>
+								   </tr>
+								   <tr>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
+								         <td> </td>
 								         <td> </td>
 								         <td> </td>
 								         <td> </td>
@@ -97,40 +109,8 @@
 								         <td> </td>
 								         <td> </td>
 								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
 								   </tr>
 								   <tr>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								   </tr>
-								   <tr>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
-								         <td> </td>
 								         <td> </td>
 								         <td> </td>
 								         <td> </td>
@@ -157,14 +137,16 @@
 				</div>
 					
 				<div class="row">
-					<div class="col-md-10" style="text-align:center"></div>
-					<div class="col-md-2" style="text-align:center">
-						<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./qieyin.jsp'">切音</button>
+					<div class="col-md-6" style="text-align:center"></div>
+					<div class="col-md-3" style="text-align:center">
+						<button type="button" class="btn btn-primary btn-lg" >导出数据</button>
+					</div>
+					<div class="col-md-3" style="text-align:center">
+						<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./databaseStandard.jsp'">返回上一页</button>
 					</div>
 				</div>
 			</div>
-
-		</div>
+			</div>
 		</div>
 		<%@ include file="footer.jsp"%>
 	</body>

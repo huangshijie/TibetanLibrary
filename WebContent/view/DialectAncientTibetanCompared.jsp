@@ -23,140 +23,59 @@
 			
 			<div class="content" style="padding:20px;border-radius: 4px;">
 				<div class="container" style="width: 100%;">
-					<div class="row"><h1>方言与古藏文比较</h1></div>
+					<div class="row"><h1 style="margin: auto;width: 25%;">方言与古藏文比较</h1></div>
+					<br/>
+					<br/>
 					<div class="row">
-						<div class="well well-white clearfix" style="padding:10px">
-							<table class="table table-striped">
-							   <thead>
-							      <tr>
-							         <th>对比栏目1</th>
-							         <th>对比栏目2</th>
-							         <th>对比栏目3</th>
-							      </tr>
-							   </thead>
-							   <tbody>
-							      <tr>
-							         <td>对比结果1</td>
-							         <td>对比结果2</td>
-							         <td>对比结果3</td>
-							      </tr>
-							      <tr>
-							         <td>对比结果1</td>
-							         <td>对比结果2</td>
-							         <td>对比结果3</td>
-							      </tr>
-							      <tr>
-							         <td>对比结果1</td>
-							         <td>对比结果2</td>
-							         <td>对比结果3</td>
-							      </tr>
-							      <tr>
-							         <td>对比结果1</td>
-							         <td>对比结果2</td>
-							         <td>对比结果3</td>
-							      </tr>
-							      <tr>
-							         <td>对比结果1</td>
-							         <td>对比结果2</td>
-							         <td>对比结果3</td>
-							      </tr>
-							      <tr>
-							         <td>对比结果1</td>
-							         <td>对比结果2</td>
-							         <td>对比结果3</td>
-							      </tr>
-							   </tbody>
-							</table>
+						<div class="col-md-1" style="text-align:center">声母</div>
+						<div class="col-md-2" style="text-align:center"><input type="text" class="form-control"></div>
+						<div class="col-md-1" style="text-align:center">韵母</div>
+						<div class="col-md-2" style="text-align:center"><input type="text" class="form-control"></div>
+						<div class="col-md-1" style="text-align:center">声调</div>
+						<div class="col-md-2" style="text-align:center"><input type="text" class="form-control"></div>
+					</div>
+					<br/>
+					<br/>
+					<div class="row">
+						<div class="col-md-6" style="text-align:center"><input type="file"  id="ff"  style="display: none" /><button type="button" class="btn btn-primary btn-lg" onclick="document.getElementById('ff').click()">选择文件...</button></div>
+						<div class="col-md-6" style="text-align:center"><button type="button" class="btn btn-primary btn-lg">查询</button></div>
+					</div>
+					<br/>
+					<br/>
+					<div class="row">
+						<div class="col-md-3" style="text-align:center">
+							<select class="myselect">
+								<option value="请选择数据库">请选择地名</option>
+								<option value="数据库1">安多河</option>
+								<option value="数据库2">康德格</option>
+								<option value="数据库3">卫藏拉萨</option>
+							</select>
 						</div>
-						<div class="row" style="padding:10px; text-align:center">
-							<div class="col-md-3" style="text-align:center">
-								<select class="myselect">
-									<option>声母比较</option>
-									<option>k</option>
-									<option>p</option>
-									<option>t</option>
-									<option>ph</option>
-									<option>kh</option>
-									<option>th</option>
-									<option>ch</option>
-									<option>b</option>
-									<option>d</option>
-									<option>g</option>
-									<option>f</option>
-									<option>s</option>
-									<option>xh</option>
-									<option>h</option>
-									<option>z</option>
-									<option>ʝ</option>
-									<option>ts</option>
-									<option>tʂ</option>
-									<option>ʨ</option>
-									<option>tsh</option>
-									<option>tʂh</option>
-									<option>ʨh</option>
-									<option>dz</option>
-									<option>dʐ</option>
-									<option>m</option>
-									<option>n</option>
-									<option>ŋ</option>
-									<option>r</option>
-									<option>l</option>
-									<option>w</option>
-									<option>ʔh</option>
-									<option>ɥ</option>
-								</select>
+						<div class="col-md-9" style="text-align:center">
+							<div class="well well-white clearfix" style="padding:10px">
+								<table class="table table-bordered" style="width: 100%;height:400px; overflow-y: auto;">
+									<thead>
+							    		<tr>
+								    		<th> </th>
+								    		<th> </th>
+							    		</tr>
+							    	</thead>
+							    	<tbody>
+							    		<tr>
+							    			<td> </td>
+							    			<td> </td>
+							    		</tr>
+							    	</tbody>
+								</table>
 							</div>
-							<div class="col-md-3" style="text-align:center">
-								<select class="myselect">
-									<option>韵母比较</option>
-									<option>i</option>
-									<option>e</option>
-									<option>əɹ</option>
-									<option>o</option>
-									<option>i</option>
-									<option>&epsilon;</option>
-									<option>a</option>
-									<option>u</option>
-									<option>yŋ</option>
-									<option>uɹ</option>
-									<option>iʔ</option>
-									<option>eʔ</option>
-									<option>y</option>
-									<option>əuʔ</option>
-									<option>oʔ</option>
-									<option>u&epsilon;ʔ</option>
-									<option>əp</option>
-									<option>ap</option>
-									<option>in</option>
-									<option>en</option>
-									<option>ən</option>
-									<option>u&epsilon;n</option>
-									<option>oɹ</option>
-									<option>əŋ</option>
-									<option>uŋ</option>
-									<option>el</option>
-									<option>al</option>
-									<option>ər</option>
-									<option>or</option>
-									<option>əɹ</option>
-								</select>
-							</div>
-							<div class="col-md-3" style="text-align:center">
-								<select class="myselect">
-									<option>声调比较</option>
-									<option>55</option>
-									<option>35</option>
-									<option>51</option>
-									<option>31</option>
-								</select>
-							</div>
-							<div class="col-md-3"><button type="button" class="btn btn-primary btn-lg">打印与保存</button></div>
-						</div>
-						<div class="row" style="padding:10px; text-align:center">
-							<div class="col-md-6"><input type="file"  id="ff"  style="display: none" /><button type="button" class="btn" onclick="document.getElementById('ff').click()">选择文件...</button></div>
-							<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./index.jsp'">返回首页</button></div>
 						</div>
 					</div>
+					<br/>
+					<br/>
+					<div class="row" style="padding:10px; text-align:center">
+						<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg">导出结果</button></div>
+						<div class="col-md-6"><button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./index.jsp'">返回首页</button></div>
+					</div>					
 				</div>
 			</div>
 		</div>

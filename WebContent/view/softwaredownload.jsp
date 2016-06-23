@@ -22,7 +22,7 @@
 		<%@ include file="head1.jsp"%>
 		<div class="wrap" style="background-color: #F1F1F1;">
 		
-			<div class="container" style="width: 100%;">
+			<div class="container" style="width: 70%;">
 				<div class="jumbotron aboutj text-center" style="padding:0px">
 					<h1 style="color:#333; padding-top: 50px;">相关软件下载</h1>
 					<div class="container bnb">
@@ -32,8 +32,8 @@
 							</div>
 							<div class="col-md-5">
 								<h2 class="title">praat</h2>
-								<div class="desc w90">Eclipse provides IDEs and platforms for nearly every language and architecture. We are famous for our Java IDE, C/C++, JavaScript and PHP IDEs built on extensible platforms for creating desktop, Web and cloud IDEs. These platforms deliver the most extensive collection of add-on tools available for software developers.</div>
-								<div class="details-link"><a href="./download/template.xlsx" class="xyicon">下载软件</a></div>
+								<div class="desc w90">Mac版本地址下载:<br/>http://www.pc6.com/mac/154544.html<br/><br/>Win版本地址下载:<br/>http://www.gezila.com/ruanjian/meiti/77794.html
+								</div>
 							</div>
 						</div>
 					</div>
@@ -42,23 +42,23 @@
 							<div class="col-md-1"></div>
 							<div class="col-md-5">
 								<h2 class="title">Elan</h2>
-								<div class="desc w90">Eclipse provides IDEs and platforms for nearly every language and architecture. We are famous for our Java IDE, C/C++, JavaScript and PHP IDEs built on extensible platforms for creating desktop, Web and cloud IDEs. These platforms deliver the most extensive collection of add-on tools available for software developers.</div>
-								<div class="details-link"><a href="./download/template.xlsx" class="xyicon">下载软件</a></div>
+								<div class="desc w90">The Language Archive (TLA) is a unit of the Max Planck Institute for Psycholinguistics concerned with digital language resources and tools.<br/><br/>点击下方按钮进入下载页面</div>
+								<div class="details-link"><a href="https://tla.mpi.nl/tools/tla-tools/elan/download/" class="xyicon">点击下载</a></div>
 							</div>
 							<div class="col-md-6 in_img_01" >
-								<img src="./img/laptop-eclipse.jpg" style="width: 550px;" alt="" width="550" height="343" class="center-block img-responsive">
+								<img src="./img/sidebarl.png" style="width: 300px;" alt="" width="550" height="343" class="center-block img-responsive">
 							</div>
 						</div>
 					</div>
 					<div class="container bnb">
 						<div class="row">
 							<div class="col-md-6 in_img_01" >
-								<img src="./img/laptop-eclipse.jpg" style="width: 550px;" alt="" width="550" height="343" class="center-block img-responsive">
+								<img src="./img/sil_logo_tm_combo.jpg" style="width: 300px;" alt="" width="550" height="343" class="center-block img-responsive">
 							</div>
 							<div class="col-md-5">
 								<h2 class="title">Toolbox</h2>
-								<div class="desc w90">Eclipse provides IDEs and platforms for nearly every language and architecture. We are famous for our Java IDE, C/C++, JavaScript and PHP IDEs built on extensible platforms for creating desktop, Web and cloud IDEs. These platforms deliver the most extensive collection of add-on tools available for software developers.</div>
-								<div class="details-link"><a href="./download/template.xlsx" class="xyicon">下载软件</a></div>
+								<div class="desc w90">Toolbox installer for Windows 10, Windows 8, Windows 7, Vista and XP.<br/><br/>点击下方按钮进入下载页面</div>
+								<div class="details-link"><a href="http://www-01.sil.org/computing/toolbox/downloads.htm" class="xyicon">点击下载</a></div>
 							</div>
 						</div>
 					</div>
@@ -67,8 +67,8 @@
 							<div class="col-md-1"></div>
 							<div class="col-md-5">
 								<h2 class="title">斐风</h2>
-								<div class="desc w90">Eclipse provides IDEs and platforms for nearly every language and architecture. We are famous for our Java IDE, C/C++, JavaScript and PHP IDEs built on extensible platforms for creating desktop, Web and cloud IDEs. These platforms deliver the most extensive collection of add-on tools available for software developers.</div>
-								<div class="details-link"><a href="./download/template.xlsx" class="xyicon">下载软件</a></div>
+								<div class="desc w90">斐風_田野調查軟件V2.1.2（2014.22.28最新版，原TFW改版升级）<br/><br/>点击下方按钮进入下载页面</div>
+								<div class="details-link"><a href="http://www.eastling.org/resource.htm" class="xyicon">点击下载</a></div>
 							</div>
 							<div class="col-md-6 in_img_01" >
 								<img src="./img/laptop-eclipse.jpg" style="width: 550px;" alt="" width="550" height="343" class="center-block img-responsive">
@@ -82,8 +82,8 @@
 							</div>
 							<div class="col-md-5">
 								<h2 class="title">灵风</h2>
-								<div class="desc w90">Eclipse provides IDEs and platforms for nearly every language and architecture. We are famous for our Java IDE, C/C++, JavaScript and PHP IDEs built on extensible platforms for creating desktop, Web and cloud IDEs. These platforms deliver the most extensive collection of add-on tools available for software developers.</div>
-								<div class="details-link"><a href="./download/template.xlsx" class="xyicon">下载软件</a></div>
+								<div class="desc w90"><br/><br/>点击下方按钮进入下载页面</div>
+								<div class="details-link"><a href="http://www.eastling.org/resource.htm" class="xyicon">点击下载</a></div>
 							</div>
 						</div>
 					</div>
@@ -92,8 +92,8 @@
 							<div class="col-md-1"></div>
 							<div class="col-md-5">
 								<h2 class="title">喜马拉雅</h2>
-								<div class="desc w90">Eclipse provides IDEs and platforms for nearly every language and architecture. We are famous for our Java IDE, C/C++, JavaScript and PHP IDEs built on extensible platforms for creating desktop, Web and cloud IDEs. These platforms deliver the most extensive collection of add-on tools available for software developers.</div>
-								<div class="details-link"><a href="./download/template.xlsx" class="xyicon">下载软件</a></div>
+								<div class="desc w90">喜马拉雅藏语输入法<br/><br/>点击下方按钮进入下载页面</div>
+								<div class="details-link"><a href="http://www.cncrk.com/downinfo/30507.html" class="xyicon">点击下载</a></div>
 							</div>
 							<div class="col-md-6 in_img_01" >
 								<img src="./img/laptop-eclipse.jpg" style="width: 550px;" alt="" width="550" height="343" class="center-block img-responsive">

@@ -53,7 +53,6 @@
 			<li style="padding: 5px 5px;">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">下载专区<span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
-					<li style="padding: 0px 0px;"><a class="liopen" href="./download.jsp">数据库下载</a></li>
 					<li style="padding: 0px 0px;"><a class="liopen" href="./softwaredownload.jsp">相关软件下载</a></li>
 				</ul>
 			</li>

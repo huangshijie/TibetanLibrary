@@ -29,34 +29,34 @@
 					<div class="row">
 						<div class="well well-white clearfix" style="padding:10px">
 							<div class="row" style="padding:10px">
-								<div class="col-md-9">
-									<div class="row" style="padding:10px">
-										<div class="col-md-6">
-											<button type="button" class="btn btn-primary btn-lg">组</button>
-										</div>
-										<div class="col-md-6">
-											<button type="button" class="btn btn-primary btn-lg">组</button>
-										</div>
-									</div>
-									<div class="row" style="padding:10px">
-										<div class="col-md-6">
-											<button type="button" class="btn btn-primary btn-lg">组</button>
-										</div>
-										<div class="col-md-6">
-											<button type="button" class="btn btn-primary btn-lg">比较</button>
-										</div>
-									</div>
-									<div class="row" style="padding:10px">
-										<div class="col-md-6">
-											<button type="button" class="btn btn-primary btn-lg">组</button>
-										</div>
-										<div class="col-md-6">
-											<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./AncientTibetanDialectCompared.jsp'">返回上一页</button>
-										</div>
-									</div>
+								<div class="col-md-3">
+									<button type="button" class="btn btn-primary btn-lg">ི</button>
 								</div>
 								<div class="col-md-3">
-									<div class="row"><div class="col-md-12" style="padding:10px"><button type="button" class="btn btn-primary btn-lg">选择方言</button></div></div>
+									<button type="button" class="btn btn-primary btn-lg">ུ</button>
+								</div>
+								<div class="col-md-3">
+									<button type="button" class="btn btn-primary btn-lg">ོ</button>
+								</div>
+								<div class="col-md-3">
+									<button type="button" class="btn btn-primary btn-lg">ེ</button>
+								</div>
+							</div>
+							<br/>
+							<br/>
+							<div class="row" style="padding:10px">
+								<div class="col-md-3">
+									<input type="file"  id="ff"  style="display: none" />
+									<button type="button" class="btn btn-primary btn-lg" onclick="document.getElementById('ff').click()">选择方言...</button>
+								</div>
+								<div class="col-md-3">
+									<button type="button" class="btn btn-primary btn-lg">比较</button>
+								</div>
+								<div class="col-md-3">
+									<button type="button" class="btn btn-primary btn-lg">导出结果</button>
+								</div>
+								<div class="col-md-3">
+									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./AncientTibetanDialectCompared.jsp'">返回上一页</button>
 								</div>
 							</div>
 						</div>
