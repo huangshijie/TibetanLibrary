@@ -88,7 +88,7 @@
 								</div>
 								<div class="col-md-11" style="text-align:center">
 									<div class="row">
-										<div class="col-md-2" style="text-align:center">中古调类</div>
+										<div class="col-md-2" style="text-align:center"></div>
 										<div class="col-md-2" style="text-align:center">全清</div>
 										<div class="col-md-2" style="text-align:center">次清</div>
 										<div class="col-md-2" style="text-align:center">全浊</div>
@@ -96,7 +96,7 @@
 										<div class="col-md-2" style="text-align:center">摄</div>
 									</div>
 									<div class="row">
-										<div class="col-md-2" style="text-align:center"><select><option> </option><option>洪细1</option><option>洪细2</option></select></div>
+										<div class="col-md-2" style="text-align:center"></div>
 										<div class="col-md-2" style="text-align:center"><input style="width:90%"/></div>
 										<div class="col-md-2" style="text-align:center"><input style="width:90%"/></div>
 										<div class="col-md-2" style="text-align:center"><input style="width:90%"/></div>
@@ -104,7 +104,7 @@
 										<div class="col-md-2" style="text-align:center"><select><option> </option><option>洪细1</option><option>洪细2</option></select></div>
 									</div>
 									<div class="row"  style="padding:10px; text-align:center">
-										<div class="col-md-2" style="text-align:center">调值</div>
+										<div class="col-md-2" style="text-align:center"></div>
 										<div class="col-md-2" style="text-align:center"><input style="width:90%"/></div>
 										<div class="col-md-2" style="text-align:center"><input style="width:90%"/></div>
 										<div class="col-md-2" style="text-align:center"><input style="width:90%"/></div>
@@ -112,29 +112,6 @@
 										<div class="col-md-2" style="text-align:center"></div>
 									</div>
 								</div>
-							</div>
-							<div class="row" style="margin-top:10px;">
-								<div class="col-md-2" style="text-align:center"></div>
-								<div class="col-md-2" style="text-align:center">声</div>
-								<div class="col-md-2" style="text-align:center">舒声韵</div>
-								<div class="col-md-2" style="text-align:center">入声韵</div>
-								<div class="col-md-2" style="text-align:center">清浊</div>
-								<div class="col-md-2" style="text-align:center"></div>
-							</div>
-							<div class="row">
-								<div class="col-md-2" style="text-align:center">替换条件</div>
-								<div class="col-md-2" style="text-align:center"><select><option> </option><option>声1</option><option>声2</option></select></div>
-								<div class="col-md-2" style="text-align:center"><select><option> </option><option>舒声韵1</option><option>舒声韵2</option></select></div>
-								<div class="col-md-2" style="text-align:center"><select><option> </option><option>入声韵1</option><option>入声韵2</option></select></div>
-								<div class="col-md-2" style="text-align:center"><select><option> </option><option>清浊1</option><option>清浊2</option></select></div>
-								<div class="col-md-2" style="text-align:center"><button type="button" class="btn">清除条件</button></div>
-							</div>
-							
-							<div class="row" style="padding:10px; text-align:center">
-								<div class="col-md-3" style="text-align:center"><input style="width:100%"/></div>
-								<div class="col-md-2" style="text-align:center"><button type="button" class="btn">替换为</button></div>
-								<div class="col-md-2" style="text-align:center"><input style="width:90%"/></div>
-								<div class="col-md-5" style="text-align:center"><input style="width:100%"/></div>
 							</div>
 							<div class="row" style="padding:10px; text-align:center">
 								<div class="col-md-3" style="text-align:center"><button type="button" class="btn">查字</button></div>

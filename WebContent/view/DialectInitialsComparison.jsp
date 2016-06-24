@@ -28,138 +28,194 @@
 					</div>
 					<div class="row">
 						<div class="well well-white clearfix" style="padding:10px">
+							<div class="row" style="padding:10px; text-align:center">
+								<div class="col-md-4"><h2>指定查询条件</h2></div>
+							</div>
+							<div class="row">
+								<div class="col-md-2">
+									<h3>基  字</h3>
+								</div>
+								<div class="col-md-4">
+									<a data-target="#terms-modal" data-toggle="modal" href="#">点击选择</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-2">
+									<h3>前加字</h3>
+								</div>
+								<div class="col-md-4">
+									<input class="form-control" size="16" type="text" value="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-2">
+									<h3>后加字</h3>
+								</div>
+								<div class="col-md-4">
+									<input class="form-control" size="16" type="text" value="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-2">
+									<h3>再后加字</h3>
+								</div>
+								<div class="col-md-4">
+									<input class="form-control" size="16" type="text" value="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-10">
+								</div>
+								<div class="col-md-2">
+									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./DialectInitialsComparisonNext.jsp'">下一步</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="terms-modal" role="dialog" tabindex="-1">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+								</div>
+						<div class="modal-body">
 							<div class="row" style="padding:10px">
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཀ</button>
+									<label><input type="checkbox">ཀ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཁ</button>
+									<label><input type="checkbox">ཁ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ག</button>
+									<label><input type="checkbox">ག</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ང</button>
+									<label><input type="checkbox">ང</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཅ</button>
+									<label><input type="checkbox">ཅ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཆ</button>
+									<label><input type="checkbox">ཆ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཇ</button>
+									<label><input type="checkbox">ཇ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཉ</button>
+									<label><input type="checkbox">ཉ</label>
 								</div>
 							</div>	
 							<div class="row" style="padding:10px">
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཏ</button>
+									<label><input type="checkbox">ཏ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg"> </button>
+									<label><input type="checkbox">ཐ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ད</button>
+									<label><input type="checkbox">ད</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ན</button>
+									<label><input type="checkbox">ན</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">པ</button>
+									<label><input type="checkbox">པ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཕ</button>
+									<label><input type="checkbox">ཕ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">བ</button>
+									<label><input type="checkbox">བ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">མ</button>
-								</div>
-							</div>	
-							<div class="row" style="padding:10px">
-								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཙ</button>
-								</div>
-								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཚ</button>
-								</div>
-								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཛ</button>
-								</div>
-								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཝ</button>
-								</div>
-								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཞ</button>
-								</div>
-								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg"> </button>
-								</div>
-								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">འ</button>
-								</div>
-								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཡ</button>
+									<label><input type="checkbox">མ</label>
 								</div>
 							</div>	
 							<div class="row" style="padding:10px">
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ར</button>
+									<label><input type="checkbox">ཙ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ལ</button>
+									<label><input type="checkbox">ཚ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཤ</button>
+									<label><input type="checkbox">ཛ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ས</button>
+									<label><input type="checkbox">ཝ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཧ</button>
+									<label><input type="checkbox">ཞ</label>
 								</div>
 								<div class="col-md-1">
-									<button type="button" class="btn btn-primary btn-lg">ཨ</button>
+									<label><input type="checkbox">ཟ</label>
+								</div>
+								<div class="col-md-1">
+									<label><input type="checkbox">འ</label>
+								</div>
+								<div class="col-md-1">
+									<label><input type="checkbox">ཡ</label>
+								</div>
+							</div>	
+							<div class="row" style="padding:10px">
+								<div class="col-md-1">
+									<label><input type="checkbox">ར</label>
+								</div>
+								<div class="col-md-1">
+									<label><input type="checkbox">ལ</label>
+								</div>
+								<div class="col-md-1">
+									<label><input type="checkbox">ཤ</label>
+								</div>
+								<div class="col-md-1">
+									<label><input type="checkbox">ས</label>
+								</div>
+								<div class="col-md-1">
+									<label><input type="checkbox">ཧ</label>
+								</div>
+								<div class="col-md-1">
+									<label><input type="checkbox">ཨ</label>
 								</div>
 								<div class="col-md-1">
 								</div>
 								<div class="col-md-1">
 								</div>
 							</div>					
-							<br/>
+<!--  					<br/>
 							<br/>
 							<div class="row" style="padding:10px">
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">ཀ 组</button>
+									<label><input type="checkbox">ཀ 组</label>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">ཅ 组</button>
+									<label><input type="checkbox">ཅ 组</label>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">ཏ 组</button>
+									<label><input type="checkbox">ཏ 组</label>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">པ 组</button>
+									<label><input type="checkbox">པ 组</label>
 								</div>
 							</div>
 							<div class="row" style="padding:10px">
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">ཙ 组</button>
+									<label><input type="checkbox">ཙ 组</label>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">ཞ 组</button>
+									<label><input type="checkbox">ཞ 组</label>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">ར 组</button>
+									<label><input type="checkbox">ར 组</label>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">ཧ 组</button>
+									<label><input type="checkbox">ཧ 组</label>
 								</div>
 							</div>
+
 							<br/>
 							<br/>
 							<div class="row" style="padding:10px">
@@ -168,20 +224,26 @@
 									<button type="button" class="btn btn-primary btn-lg" onclick="document.getElementById('ff').click()">选择方言...</button>
 								</div>
 								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">比较</button>
+      								<button type="button" class="btn btn-primary btn-lg">确定</button>
 								</div>
-								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg">导出结果</button>
-								</div>
-								<div class="col-md-3">
-									<button type="button" class="btn btn-primary btn-lg" onclick="javascript:location.href='./AncientTibetanDialectCompared.jsp'">返回上一页</button>
+							</div>
+-->
+						</div>
+								<div class="modal-footer">
+									<div class="row" style="padding:10px">
+										<div class="col-md-2">
+											已选择：
+										</div>
+										<div class="col-md-7"></div>
+										<div class="col-md-3">
+		      								<button class="btn btn-default" data-dismiss="modal" type="button">确定</button>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
+					
 		<%@ include file="footer.jsp"%>
 		
 		
